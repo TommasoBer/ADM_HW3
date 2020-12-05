@@ -12,7 +12,7 @@ Not having an already structured dataset to work on, it was built from scratch t
 
 1. Title (to save as bookTitle)
 2. Series (to save as bookSeries)
-3. Author(s), the first box in the picture below (to save as bookAuthors)
+3. Author(s), (to save as bookAuthors)
 4. Ratings, average stars (to save as ratingValue)
 5. Number of givent ratings (to save as ratingCount)
 6. Number of reviews (to save as reviewCount)
