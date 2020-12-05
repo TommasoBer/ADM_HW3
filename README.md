@@ -40,7 +40,14 @@ The directory of this homework consists of several files:
 3 `articles.tsv`
 > This is the final dataset that we have after the scraping process. It's a dataset composed by almost 30k rows/books and twelve columns.
 
+4 `dictionary.json`
+> This is a dictionary that contains all the word found in the book's plots. Each word is mapped by a number.
 
+5 `invIndex_and_utils.py`
+> This is a file containing all the functions useful to create the inverted index.
+
+> 5.1 `inv_index1.json`
+> This is a dictionary that contains the inverted index built for the first search engine.
 
 
 **********************
