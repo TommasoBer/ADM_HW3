@@ -27,6 +27,7 @@ This dataset, stored in a .tsv file, is the starting point to the creating of ou
 
 ## Files descriptions
 The directory of this homework consists of several files:
+
 1 `collector.ipynb`
 > This Jupyter notebook file contains all the functions and  the descriptive process to collect your data from the html page (from which you get the urls), to save the urls in a .txt file and download in local the pages of different books.
 
@@ -44,6 +45,4 @@ The directory of this homework consists of several files:
 
 **********************
 *Homework made by:*
-Martina (Cognome)
-Arsen (Cognome)
 Tommaso Berritto
