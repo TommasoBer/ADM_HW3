@@ -61,7 +61,9 @@ The directory of this homework consists of several files:
 7 `launch.py`
 > In this python file there are all the functions useful to the execution of the queries.
 
+8 `exercise_5.ipynb`
+> This file contains the solution about the 5th exercise of the homework.
+
 
 **********************
-*Homework made by:*
-Tommaso Berritto
+
