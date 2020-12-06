@@ -53,7 +53,7 @@ The directory of this homework consists of several files:
 > This is a dictionary that contains the inverted index built for the second search engine. It has been built with a tecnique based on the tfidf rank score.
 
 > 5.3 `N_list.json`
-> We calculate N (number of documents that cointains i-th word), and add this value in a list, in order to use it then in the calculus of tfidf. For the structure of the algorithm that compute the inverted_index_tfidf it was useful to calculate all the N in a previous moment.
+> We calculate N (number of documents that cointains i-th word) for each term, and add this value in a list, in order to use it then in the calculus of tfidf. For the structure of the algorithm that compute the inverted_index_tfidf it was useful to calculate all the N in a previous moment.
 
 6 `main.ipynb`
 > This Jupyter notebook is the file from which we can launch the three built search engines. In addition to testing our search engines and displaying the results of the queries, we find a description of the three different types of engines. In this file are imported all the tools and files useful to obtain the results.
