@@ -94,4 +94,57 @@ def inverted_index(corpus,vocabulary):
 
     return inv_index
 
+def calculate_N(plot_list_pp,words_as_number):
+    
+    corpus = plot_list_pp
+    
+    vocabolario = words_as_number
+
+    N_list = []
+    for word_num in vocabolario:
+        N = 0
+        for i in range(0,len(corpus)):
+            if word_num in corpus[i]:
+                N  = N + 1
+        N_list.append(N)
+
+    if len(N_list) == len(vocabolario) :
+        
+        return N_list
+    
+    else:
+        
+        return("problem")
+       
+
+
+
+#Let's calculate the inverted index with tfidf
+def inverted_index_tfidf(plot_list_pp,words_as_number,N_list):
+    corpus = plot_list_pp
+    n = len(corpus)
+    inv_index2 = defaultdict(list)
+    vocabolario = words_as_number
+
+
+    j = 0
+    for word_num in vocabolario :
+
+        N = N_list[j] #numbers of document that contain word_num
+
+
+        for i in range(0,len(corpus)):
+            if word_num in corpus[i] :
+
+                #inv_index[word_num].append(i)
+                tf = corpus[i].count(word_num)
+                tfidf = tf * np.log(n/N)
+                #inv_index[word_num].append(tfidf)
+                inv_index2[word_num].append((i , tfidf))
+
+        j = j + 1
+    
+    return inv_index2
+
+
 
